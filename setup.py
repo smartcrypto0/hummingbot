@@ -37,7 +37,7 @@ def main():
         "hummingbot": [
             "core/cpp/*",
             "VERSION",
-            "templates/*TEMPLATE.yml"
+            "templates/*TEMPLATE.yml",
         ],
     }
     install_requires = [
@@ -56,6 +56,7 @@ def main():
         "cryptography>=41.0.2",
         "decibel-python-sdk==0.2.1",
         "eth-account>=0.13.0",
+        "lighter-sdk==1.0.8",
         "injective-py>=1.13",
         "msgpack-python",
         "numba>=0.61.2",
